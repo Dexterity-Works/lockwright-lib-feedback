@@ -1,3 +1,6 @@
+> [!WARNING]
+> 🍐 PearPass is currently paused from active development, so please use at your own caution until further notice.
+
 # Pear Apps Feedback Library
 
 A lightweight JavaScript library for collecting and submitting user feedback from various applications to different destinations like Slack and Google Forms. This library provides a consistent interface for sending bug reports, feature requests, and security issues across mobile, desktop, and browser extension applications.
