@@ -1,9 +1,10 @@
-> [!WARNING]
-> 🍐 PearPass is currently paused from active development, so please use at your own caution until further notice.
-
-# Pear Apps Feedback Library
+# lockwright-lib-feedback
 
 A lightweight JavaScript library for collecting and submitting user feedback from various applications to different destinations like Slack and Google Forms. This library provides a consistent interface for sending bug reports, feature requests, and security issues across mobile, desktop, and browser extension applications.
+
+Site: [lockwright.dexterity.works](https://lockwright.dexterity.works)
+
+Community fork of PearPass (Apache 2.0). Not affiliated with or endorsed by Tether Data or the Pears project.
 
 ## Table of Contents
 
@@ -28,15 +29,14 @@ A lightweight JavaScript library for collecting and submitting user feedback fro
 
 ## Security Notice
 
-1. To ensure the security and integrity of your projects, please note that official PearPass packages are distributed exclusively through our GitHub organization.
-2. Any packages with similar names found on the npm registry or other third-party package managers are not affiliated with PearPass and should be strictly avoided. We recommend installing directly from this repository to ensure you are using the verified, open-source version.
+Imports stay `@tetherto/pear-apps-lib-feedback`. That npm name is not this fork if you install it from the npm registry.
 
 ## Installation
 
 Install the package via npm:
 
 ```bash
-npm install git+https://github.com/tetherto/pear-apps-lib-feedback.git
+npm install git+https://github.com/Dexterity-Works/lockwright-lib-feedback.git
 ```
 
 ## Usage Examples
@@ -137,10 +137,10 @@ npm test
 
 ## Related Projects
 
-- [@tetherto/pearpass-app-desktop](https://github.com/tetherto/pearpass-app-desktop) - A desktop app for PearPass, a password manager
-- [@tetherto/pearpass-app-mobile](https://github.com/tetherto/pearpass-app-mobile) - A mobile app for PearPass, a password manager
-- [@tetherto/pearpass-app-browser-extension](https://github.com/tetherto/pearpass-app-browser-extension) - A nrowser extension app for PearPass, a password manager
-- [@tetherto/tether-dev-docs](https://github.com/tetherto/tether-dev-docs) - Documentations and guides for developers
+- [lockwright-app-desktop](https://github.com/Dexterity-Works/lockwright-app-desktop) - Lockwright for desktop
+- [lockwright-app-mobile](https://github.com/Dexterity-Works/lockwright-app-mobile) - Lockwright for mobile
+- [lockwright-app-browser-extension](https://github.com/Dexterity-Works/lockwright-app-browser-extension) - Lockwright browser extension
+- [tether-dev-docs](https://github.com/Dexterity-Works/tether-dev-docs) - Documentations and guides for developers
 
 ## License
 
