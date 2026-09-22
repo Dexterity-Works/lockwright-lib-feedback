@@ -29,7 +29,7 @@ Community fork of PearPass (Apache 2.0). Not affiliated with or endorsed by Teth
 
 ## Security Notice
 
-Imports stay `@tetherto/pear-apps-lib-feedback`. That npm name is not this fork if you install it from the npm registry.
+The package name is `lockwright-lib-feedback`.
 
 ## Installation
 
@@ -44,7 +44,7 @@ npm install git+https://github.com/Dexterity-Works/lockwright-lib-feedback.git
 ### Sending Feedback to Slack
 
 ```javascript
-import { sendSlackFeedback } from '@tetherto/pear-apps-lib-feedback';
+import { sendSlackFeedback } from 'lockwright-lib-feedback';
 
 // Send a bug report to Slack
 sendSlackFeedback({
@@ -61,7 +61,7 @@ sendSlackFeedback({
 ### Sending Feedback to Google Forms
 
 ```javascript
-import { sendGoogleFormFeedback } from '@tetherto/pear-apps-lib-feedback';
+import { sendGoogleFormFeedback } from 'lockwright-lib-feedback';
 
 // Send a feature request to Google Forms
 sendGoogleFormFeedback({
